@@ -9,6 +9,8 @@ const teacher = require('./Routes/teacher');
 const card = require('./Routes/card');
 const student = require('./Routes/student');
 const classes = require('./Routes/class');
+const schoolStudents = require('./Routes/schoolStudent');
+const jwt = require("jsonwebtoken");
 
 var corsOptions = {
     origin: "*",
@@ -31,6 +33,7 @@ app.use('/api/products', product);
 app.use('/api/teacher',teacher);
 app.use('/api/student',student);
 app.use('/api/classes',classes);
+app.use('/api/schoolStudents',schoolStudents)
 const mongoose = require('mongoose');
 mongoose.connect("mongodb+srv://maham:maham2000@cluster0.5vxx9.mongodb.net/tinder-clone?retryWrites=true&w=majority",
     { useNewUrlParser: true },
