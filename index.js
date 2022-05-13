@@ -44,6 +44,10 @@ app.get('/', (req, res) => {
     // res.render('index');
 })
 
+app.get("/help",(req,res) => {
+    res.send("Help from Allah . Allah U Akbar")
+})
+
 
 
 app.listen(process.env.PORT || 8080, () => {
