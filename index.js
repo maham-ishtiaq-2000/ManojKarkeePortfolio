@@ -49,10 +49,10 @@ mongoose.connect("mongodb+srv://maham:maham2000@cluster0.5vxx9.mongodb.net/tinde
     .catch((err) => console.log(err));
 
 app.get('/', (req, res) => {
-    res.send("Welcome to Gulaan.....s")
+    
     res.send("help from ALLAH")
     console.log("ok")
-    console.log(orders)
+    
     // res.render('index');
 })
 
