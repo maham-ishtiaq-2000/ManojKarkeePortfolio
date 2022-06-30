@@ -10,6 +10,9 @@ const card = require('./Routes/card');
 const student = require('./Routes/student');
 const classes = require('./Routes/class');
 const schoolStudents = require('./Routes/schoolStudent');
+const amazonUser = require('./Routes/amazonUser');
+const amazonProduct = require('./Routes/amazonProduct');
+const amazonOrders = require('./Routes/amazonOrders');
 const jwt = require("jsonwebtoken");
 
 var corsOptions = {
@@ -34,6 +37,10 @@ app.use('/api/teacher',teacher);
 app.use('/api/student',student);
 app.use('/api/classes',classes);
 app.use('/api/schoolStudents',schoolStudents)
+app.use('/api/amazonUser',amazonUser);
+app.use('/api/amazonProduct',amazonProduct);
+app.use('/api/amazonOrders',amazonOrders);
+
 const mongoose = require('mongoose');
 mongoose.connect("mongodb+srv://maham:maham2000@cluster0.5vxx9.mongodb.net/tinder-clone?retryWrites=true&w=majority",
     { useNewUrlParser: true },
@@ -43,7 +50,9 @@ mongoose.connect("mongodb+srv://maham:maham2000@cluster0.5vxx9.mongodb.net/tinde
 
 app.get('/', (req, res) => {
     res.send("Welcome to Gulaan.....s")
+    res.send("help from ALLAH")
     console.log("ok")
+    console.log(orders)
     // res.render('index');
 })
 
