@@ -1,0 +1,14 @@
+.mainHeaderContainer{
+    border-bottom: 1px solid #ccc; 
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+}
+
+.nav-link:hover{
+    color: #A60F2D;
+    font-weight: bold;
+}
+
+.headerImg{
+    border:none
+}

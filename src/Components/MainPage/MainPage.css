@@ -1,0 +1,73 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.professorInfo{
+    margin-left: 20%;
+    
+}
+
+.professorInfo span{
+    color: #A60F2D;
+}
+
+.animationRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .animationRow > div {
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .animationRow > div:nth-child(odd) {
+    animation-name: slideInFromLeft;
+  }
+  
+  .animationRow > div:nth-child(even) {
+    animation-name: slideInFromRight;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.karkeeImage{
+    width: 69.5%;
+    height: 90%;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 60%;
+    margin-top: 6%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.karkeeImage img{
+    margin-left: 1%;
+    margin-top: 5%;
+    border : 1px;
+    border-radius: 0 0 50% 50%;
+    
+}
+
+
+  

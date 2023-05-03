@@ -1,0 +1,29 @@
+.researchHeading{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(107, 107, 107);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.researchSelectedProjects{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(107, 107, 107);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.researchLink{
+    color: #A60F2D;
+    text-decoration: none;
+}
+
+.researchLink:hover{
+    color: #A60F2D;
+    font-weight: bold;
+}
+
+
+  

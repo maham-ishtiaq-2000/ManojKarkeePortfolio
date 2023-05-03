@@ -1,0 +1,37 @@
+.animationRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.animationRow > div {
+  position: relative;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.animationRow > div:nth-child(odd) {
+  animation-name: slideInFromLeft;
+}
+
+.animationRow > div:nth-child(even) {
+  animation-name: slideInFromRight;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

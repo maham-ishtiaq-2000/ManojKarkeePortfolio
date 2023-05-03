@@ -1,0 +1,30 @@
+.outreachHeading{
+    font-size: 30px;
+    color: rgb(78, 78, 78);
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.hr-red {
+    border-width: 3px;
+    border-color: #6d0117;
+   
+}
+
+.handleResponse{
+
+}
+
+@media only screen and (min-width: 300px) {
+    .handleResponse{
+        width : 100%;
+        margin-right: 2%;
+    }
+    
+      
+}
+    
+
+
+
+
