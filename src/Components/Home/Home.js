@@ -36,7 +36,7 @@ const Home = () =>{
                         <div className="col"><a href="https://twitter.com/KarkeeManoj?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i className="fa fa-twitter" style={{"font-size":"48px" , "color":"#1DA1F2"}}></i></a></div>
                         <div className="col"><a href="https://www.linkedin.com/in/manoj-karkee-68b5ab1a/"><i className="fa fa-linkedin" style={{"font-size":"48px" , "color":"#0e76a8 "}}></i></a></div>
                         <div className="col"><a href="https://scholar.google.com/citations?user=ajjssGAAAAAJ&hl=en"> <img src={myNewImg} alt="WSU Logo" width="60px" height="45px" style={{"marginBottom" : "10px"}}/></a></div>
-                        <div className="col"><a href="https://www.facebook.com/WSUPullman"> <img src="https://1000logos.net/wp-content/uploads/2020/01/Washington_State_Cougars_logo_PNG3.png" alt="WSU Logo" width="60px" height="45px" style={{"marginBottom" : "10px"}}/></a></div>
+                        <div className="col"><a href="https://bsyse.wsu.edu/people/faculty/karkee/"> <img src="https://1000logos.net/wp-content/uploads/2020/01/Washington_State_Cougars_logo_PNG3.png" alt="WSU Logo" width="60px" height="45px" style={{"marginBottom" : "10px"}}/></a></div>
                     </div>
                 </div>
                 <div className="col-sm-8 p-3 text-secondary">
