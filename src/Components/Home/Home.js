@@ -3,6 +3,8 @@ import './Home.css';
 import Biography from './Biography';
 import Header from '../Header/Header';
 import Loading from '../Loading/Loading';
+import myImage from '../MainPage/images/wsu.jpg';
+import myNewImg from '../MainPage/images/googleScholat.png';
 
 const Home = () =>{
     const [loading, setLoading] = useState(true)
@@ -18,7 +20,7 @@ const Home = () =>{
             <div className="container-fluid mt-3">
                 <div className="row ">
                 <div className="col-sm-3 p-3 text-secondary">
-                    <img src="https://labs.wsu.edu/karkee-ag-robotics/wp-content/uploads/sites/1513/2016/10/kimfetrow2017_DSC_0812-Edit_8x10_cropped-396x498.jpg" className="img-thumbnail homeImg" alt="Cinque Terre" width="200px" height="100px"/> 
+                    <img src={myImage} className="img-thumbnail homeImg" alt="Cinque Terre" width="220px" height="70px"/> 
                     <h2 className='text-dark text-center'>Manoj Karkee , PhD</h2>
                     <p className='text-secondary text-center text-justify fs-4'>Professor</p>
                     <div className='text-center font-weight-normal mainDivLeft'> 
@@ -31,10 +33,10 @@ const Home = () =>{
                     </div> 
                     <br></br>
                     <div className="row">
-                        <div className="col"><a href="https://www.facebook.com/WSUPullman"><i className="fa fa-facebook" style={{"font-size":"48px" , "color":"#A60F2D"}}></i></a></div>
-                        <div className="col"><a href="https://twitter.com/wsupullman"><i className="fa fa-twitter" style={{"font-size":"48px" , "color":"#A60F2D"}}></i></a></div>
-                        <div className="col"><a href="https://www.youtube.com/washingtonstateuniv"><i className="fa fa-play" style={{"font-size":"48px" , "color":"#A60F2D"}}></i></a></div>
-                        <div className="col"><a href="https://socialmedia.wsu.edu/"><i className="fa fa-plus" style={{"font-size":"48px" , "color":"#A60F2D"}}></i></a></div>
+                        <div className="col"><a href="https://twitter.com/KarkeeManoj?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i className="fa fa-twitter" style={{"font-size":"48px" , "color":"#1DA1F2"}}></i></a></div>
+                        <div className="col"><a href="https://www.linkedin.com/in/manoj-karkee-68b5ab1a/"><i className="fa fa-linkedin" style={{"font-size":"48px" , "color":"#0e76a8 "}}></i></a></div>
+                        <div className="col"><a href="https://scholar.google.com/citations?user=ajjssGAAAAAJ&hl=en"> <img src={myNewImg} alt="WSU Logo" width="60px" height="45px" style={{"marginBottom" : "10px"}}/></a></div>
+                        <div className="col"><a href="https://www.facebook.com/WSUPullman"> <img src="https://1000logos.net/wp-content/uploads/2020/01/Washington_State_Cougars_logo_PNG3.png" alt="WSU Logo" width="60px" height="45px" style={{"marginBottom" : "10px"}}/></a></div>
                     </div>
                 </div>
                 <div className="col-sm-8 p-3 text-secondary">
