@@ -6,7 +6,7 @@ An impressive professor portfolio showcasing abilities. React-powered single pag
 ## Project GIF
 
 <div class="gif-container" style="display: flex; justify-content: center; margin-left: auto; margin-right: auto;">
-    <img src="./MaptyGIF.gif" alt="Alt Text">
+    <img src="./manojKarkeeGIF.gif" alt="Alt Text">
 </div>
 
 ## 🚀 Demo
