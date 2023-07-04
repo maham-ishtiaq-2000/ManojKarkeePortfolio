@@ -23,33 +23,30 @@ Try the application: https://manoj-karkee-portfolio.vercel.app/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/maham-ishtiaq-2000/Mapty.git
+git clone https://github.com/maham-ishtiaq-2000/ManojKarkeePortfolio.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd Mapty.git
+cd ManojKarkeePortfolio.git
 ```
 
 3. Install dependencies
 
 ```bash
-npm install -y
-npm install parser
+npm install --force
 ```
 
 4. Run the app
 
 ```bash
-npx index.html
+npm start
 ```
 
 🌟 You are all set!
 
 ## 💻 Built with
 
-- [HTML](https://www.gatsbyjs.com/) for structure
-- [CSS](https://tailwindcss.com/) for styling
-- [GoogleMaps] to access location
-- [JavaScript](https://greensock.com/gsap/) for adding functionality
+- [React] for single page application.
+
