@@ -15,7 +15,7 @@ An impressive professor portfolio showcasing abilities. React-powered single pag
 <img src="https://img.shields.io/website?url=https%3A%2F%2Frahuldkjain.github.io%2Fgh-profile-readme-generator&logo=github&style=flat-square" />
 </a>
 
-Try the application: https://maham-ishtiaq-2000.github.io/Mapty/
+Try the application: https://manoj-karkee-portfolio.vercel.app/
 
 
 ## 🛠️ Installation Steps
